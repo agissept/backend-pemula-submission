@@ -2,7 +2,7 @@
   "name": "books-shelf-api-submission",
   "version": "1.0.0",
   "scripts": {
-    "start-prod": "NODE_PATH=./ ts-node src/index.ts",
+    "start-prod": "NODE_ENV=production NODE_PATH=./ ts-node src/index.ts",
     "start-dev": "nodemon",
     "lint": "eslint . --ext .ts"
   },
